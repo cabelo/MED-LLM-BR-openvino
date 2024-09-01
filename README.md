@@ -34,7 +34,7 @@ pip install -r requirements.txt
 2 . Run example.
 ```bash
 python inference-MD-LLM-BR.py
-LLM model: cabelo/Clinical-BR-LlaMA-2-7B-int16-ov, FP16
+LLM model: cabelo/Clinical-BR-LlaMA-2-7B-fp16-ov, FP16
 Compiling the model to CPU ...
 Question: Paciente admitido com angina instável, progredindo para infarto agudo do miocárdio
 (IAM) inferior no primeiro dia de internação; encaminhado para unidade de hemodinâmica, onde
