@@ -20,7 +20,9 @@ LLama: LLama is a state-of-the-art language model known for its scalability and 
 
 #### How to use the models with HuggingFace
 
-Link model : [Clinical-BR-LlaMA-2-7B](https://huggingface.co/cabelo/Clinical-BR-LlaMA-2-7B-int16-ov)
+Link model FP16 : [Clinical-BR-LlaMA-2-7B-int16-ov](https://huggingface.co/cabelo/Clinical-BR-LlaMA-2-7B-int16-ov)
+Link model FP8  : [Clinical-BR-LlaMA-2-7B-int8-ov]() comming...
+Link model FP4  : [Clinical-BR-LlaMA-2-7B-int4-ov]() comming...
 
 ~~~bash
 from transformers import AutoModelForCausalLM, AutoTokenizer
