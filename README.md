@@ -27,3 +27,17 @@ Link model FP8  : [Clinical-BR-LlaMA-2-7B-int8-ov]() comming...
 Link model FP4  : [Clinical-BR-LlaMA-2-7B-int4-ov]() comming...
 
 
+1. Install the required packages:
+```bash
+pip install -r requirements.txt
+```
+2 . Run example.
+```bash
+python inference-MD-LLM-BR.py
+LLM model: cabelo/Clinical-BR-LlaMA-2-7B-int16-ov, FP16
+Compiling the model to CPU ...
+Question: Paciente admitido com angina instável, progredindo para infarto agudo do miocárdio (IAM) inferior no primeiro dia de internação; encaminhado para unidade de hemodinâmica, onde foi feita angioplastia com implante de stent na ponte de safena 
+
+Paciente submeteu-se a uma cirurgia cardíaca em 2014, sendo que o procedimento teve sucesso e sem complicações graves ou leves. Em julho deste ano apresentou-se ao nosso centro de emergencia com sintomatologia clínicamente similar à da última crise de IAM, porém com menor gravidade e evoluência bem melhorada quando comparada as anteriores. Foi realizada novamente angiografia coronária que mostrou lesões restritivas em ambas artérias circunflexa e marginal esquerda (figura). Realizado exame eletricofisiológico com resultados normais. Apresentando-se como paciente com quadro de dor torácica, auscultação normal e laboratórios normais, foi iniciada terapia farmacologica de classe B. Após 3 dias de uso, o cuidado médico optou pelo retorno aos medicamentos de classe C, já que os primeiros não foram capazes de controlar a dor torácica e a frequencia cardiométrica.
+
+```
