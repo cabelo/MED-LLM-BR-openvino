@@ -22,10 +22,7 @@ LLama: LLama is a state-of-the-art language model known for its scalability and 
 
 Link model FP16 : [Clinical-BR-LlaMA-2-7B-fp16-ov](https://huggingface.co/cabelo/Clinical-BR-LlaMA-2-7B-fp16-ov)
 
-Link model FP8  : [Clinical-BR-LlaMA-2-7B-int8-ov]() comming...
-
-Link model FP4  : [Clinical-BR-LlaMA-2-7B-int4-ov]() comming...
-
+Link model Int8  : [Clinical-BR-LlaMA-2-7B-int8-ov](https://huggingface.co/cabelo/Clinical-BR-LlaMA-2-7B-int8-ov) 
 
 1. Install the required packages:
 ```bash
