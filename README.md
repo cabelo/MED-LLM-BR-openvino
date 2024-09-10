@@ -5,7 +5,8 @@
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-# MED-LLM-BR-OpenVINO: Medical Large Language Models for Brazilian Portuguese for OpenVINO
+# MED-LLM-BR-OpenVINO: [![Mentioned in Awesome OpenVINO](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/openvinotoolkit/awesome-openvino)
+# Medical Large Language Models for Brazilian Portuguese for OpenVINO
 MED-LLM-BR-OpenVINO is a **model converted** of the [MED-LLM-BR](https://github.com/HAILab-PUCPR/MED-LLM-BR) collaborative project between [HAILab](https://github.com/HAILab-PUCPR) and [Comsentimento](https://www.comsentimento.com.br/), which aims to develop multiple medical LLMs for Portuguese language, including base models and task-specific models, with different sizes. 
 
 ## Contributions:
