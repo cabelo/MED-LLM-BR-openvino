@@ -27,7 +27,7 @@ Link model Int8  : [Clinical-BR-LlaMA-2-7B-int8-ov](https://huggingface.co/cabel
 
 1. Install the required packages:
 ```bash
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 2 . Run example.
 ```bash
