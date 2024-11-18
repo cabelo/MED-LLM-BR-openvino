@@ -1,4 +1,4 @@
-form optimum.intel.openvino import OVModelForCausalLM
+from optimum.intel.openvino import OVModelForCausalLM
 from transformers import AutoTokenizer, AutoConfig
 from transformers.generation.streamers import TextStreamer
 
