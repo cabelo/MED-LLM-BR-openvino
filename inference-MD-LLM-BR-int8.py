@@ -1,11 +1,12 @@
+import sys
 from optimum.intel.openvino import OVModelForCausalLM
 from transformers import AutoTokenizer, AutoConfig
 from transformers.generation.streamers import TextStreamer
 
-model_id = 'cabelo/Clinical-BR-LlaMA-2-7B-int16-ov'
+model_id = 'cabelo/Clinical-BR-LlaMA-2-7B-int8-ov'
 model_vendor, model_name = model_id.split('/')
 
-model_precision = 'FP16'
+model_precision = 'int8'
 
 print(f'LLM model: {model_id}, {model_precision}')
 
@@ -17,8 +18,8 @@ ov_model = OVModelForCausalLM.from_pretrained(
     config=AutoConfig.from_pretrained(model_id)
 )
 
-# Generation with a prompt message
-question = 'Paciente admitido com angina instável, progredindo para infarto agudo do miocárdio (IAM) inferior no primeiro dia de internação; encaminhado para unidade de hemodinâmica, onde foi feita angioplastia com implante de stent na ponte de'
+# Generation with a default prompt message or use argv1
+question = next(iter(sys.argv[1:]), 'Paciente admitido com angina instável, progredindo para infarto agudo do miocárdio (IAM) inferior no primeiro dia de internação; encaminhado para unidade de hemodinâmica, onde foi feita angioplastia com implante de stent na ponte de safena')
 
 prompt_text_tinyllama = f"""\
 <|system|>
